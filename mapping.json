@@ -1,33 +1,67 @@
 {
+  "version": 1,
+  "time": {
+    "tag": "time"
+  },
+  "odo": {
+    "tag": "odo"
+  },
+  "rpm": {
+    "tag": "bar1"
+  },
+  "mil": {
+    "tag": "icon1"
+  },
+  "gear": {
+    "tag": "gear"
+  },
+  "cam": {
+    "tag": "gauge7"
+  },
+  "bat": {
+    "tag": "gauge6"
+  },
+  "tps": {
+    "tag": "gauge10"
+  },
   "iat": {
-    "unit": "celsius"
+    "unit": "celsius",
+    "tag": "gauge2"
   },
   "ect": {
-    "unit": "celsius"
+    "unit": "celsius",
+    "tag": "gauge1"
   },
   "vss": {
-    "unit": "kmh"
+    "unit": "kmh",
+    "tag": "speed"
   },
   "o2": {
-    "unit": "afr"
+    "unit": "afr",
+    "tag": "gauge8"
   },
   "map": {
-    "unit": "bar"
+    "unit": "bar",
+    "tag": "gauge9"
   },
   "an0": {
     "unit": "bar",
-    "formula": "ebay_150_psi"
+    "formula": "ebay_150_psi",
+    "tag": "gauge4"
   },
   "an1": {
     "unit": "psi",
-    "formula": "autometer_2246"
+    "formula": "autometer_2246",
+    "tag": "gauge5"
   },
   "an2": {
     "unit": "celsius",
-    "formula": "vdo_323_057"
+    "formula": "vdo_323_057",
+    "tag": "gauge3"
   },
   "an3": {
     "unit": "per cent",
-    "formula": "civic_eg_fuel_tank"
+    "formula": "civic_eg_fuel_tank",
+    "tag": "bar2"
   }
 }

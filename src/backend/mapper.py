@@ -24,3 +24,9 @@ class Mapper:
             formula = 'voltage'
 
         return getattr(Formula, formula)
+
+    def get_tag(self, value):
+        try:
+            return self.map.get(value).get('tag')
+        except AttributeError:
+            return None

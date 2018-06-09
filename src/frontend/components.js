@@ -29,8 +29,8 @@ var time = new Text({
     style: "italic",
 });
 
-var odometer = new Text({
-    id: "odometer",
+var odo = new Text({
+    id: "odo",
     value: "0",
     size: 3,
     style: "italic",
