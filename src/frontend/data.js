@@ -13,14 +13,16 @@ var connection = new autobahn.Connection({
 connection.onopen = function (session) {
 
     function onevent1(args) {
+        console.log(args);
         for (var key in args[0]) { // for all values
+            console.log(key);
             if (args[0][key]['tag'] != null) { // if it's associated to a frontend tag
                 window[args[0][key]["tag"]]["refresh"](args[0][key]["value"]);
             }
         }
    }
 
-   session.subscribe('com.app.idea', onevent1);
+   session.subscribe('data', onevent1);
 };
 
 
